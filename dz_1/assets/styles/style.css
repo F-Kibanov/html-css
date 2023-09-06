@@ -1,0 +1,23 @@
+h1 {
+    color: green;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    font-size: 24px;
+}
+.icon {
+    width: 20px;
+    height: 20px;
+    align-items: center
+}
+.box {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    font-size: 24px; 
+}
