@@ -1,0 +1,303 @@
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logoWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 35px;
+    height: 40px;
+    margin-top: 40px;
+}
+
+.GrowBe {
+    width: 88px;
+    height: 30px;
+    margin-top: 45px;
+    margin-left: 14px;
+    display: flex;
+}
+
+.Grow {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Be {
+    color: #F25822;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.topMenu {
+    margin-left: 500px;
+    margin-top: 51px;
+    height: 17px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 27px;
+}
+
+.homeButton {
+    text-decoration: none;
+    color: #F25822;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Buttons {
+    text-decoration: none;
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 84px;
+}
+
+.title {
+    width: 522px;
+    height: 222px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.text {
+    width: 466px;
+    height: 48px;
+    margin-top: 17px;
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button {
+    width: 140px;
+    height: 50px;
+    margin-top: 37px;
+    border: none;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    cursor: pointer;
+}
+
+.buttonText {
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.watchVideoLink {
+    margin-left: 72px;
+    text-decoration: none;
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.imgBg {
+    margin-left: 39px;
+    margin-top: 96px;
+    width: 610.735px;
+    height: 372.904px;
+    flex-shrink: 0;
+    background: #FFF;
+}
+
+.mainImage {
+    width: 544.814px;
+    height: 374.843px;
+    flex-shrink: 0;
+    background: url(../../img/mainImage.png);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 260px;
+    margin-bottom: 96px;
+    cursor: pointer;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 500px;
+    margin-bottom: 500px;
+}
+
+.item {
+    width: 381px;
+    height: 291px;
+    border: 1px solid #000;
+    margin-right: 25px;
+}
+
+.card_header {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.icon {
+    margin-top: 35px;
+    margin-left: 41px;
+}
+
+.card_par {
+    width: 310px;
+    height: 42px;
+    flex-shrink: 0;
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 17px;
+    margin-left: 40px;
+}
+
+.read_more_link {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 25px;
+    margin-left: 40px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container {
+    /* width: 1881px; */
+    height: 898px;
+    border: 1px solid #0A06E8;
+    justify-content: center;
+}
+
+.bottom_header {
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bottom_par {
+    width: 648px;
+    display: flex;
+    justify-content: center;
+    color: #666;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+
+.gc {
+    gap: 30px;
+    display: grid;    justify-content: center;
+    grid-template-columns: repeat(3, 3fr);
+}
+
+.grid_card {
+    height: 549px;
+    /* width: 370px; */
+    border: 1px solid #000;
+    justify-content: space-around;
+    /* align-items: center; */
+    align-content: center;
+    gap: 30px;
+}
+
+.bottom_card_img {
+    width: 385px;
+    height: 289px;
+    flex-shrink: 0;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.bc_header {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bc_par {
+    width: 310px;
+    height: 63px;
+    flex-shrink: 0;
+    color: #AAA;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */\
+}
